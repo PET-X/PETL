@@ -1,0 +1,7 @@
+petl_server
+petx_server
+numpy
+matplotlib
+imageio
+sphinx
+sphinx-rtd-theme
