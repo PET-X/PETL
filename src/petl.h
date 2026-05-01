@@ -5,6 +5,8 @@
 #pragma once
 #endif
 
+#define PETL_VERSION "1.0"
+
 #include "petl_defines.h"
 #include "parameters.h"
 #include "phantom.h"
@@ -17,6 +19,7 @@ public:
 	~PETL();
 
     void clearAll();
+    const char* about();
 
     bool add_planogram(float psi, float R, float L, float H, float v_m0, float v_m1, float T);
 	bool remove_planogram(int);

@@ -12,6 +12,7 @@ For a full description of each function's arguments, please see the online docum
 # sets the PETX geometry for you.  You can do this as follows
 from petx_server import *
 petx = PETXserver()
+petx.about()
 
 # The above could also simply be done with the following
 # This will give the exact same result as above, it just more explicit
@@ -20,6 +21,7 @@ petx = PETXserver()
 """
 from petl_server import *
 petx = PETLserver()
+petx.about()
 
 # First we set the PET/X geometry
 pixel_pitch = 1.6

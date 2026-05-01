@@ -24,6 +24,19 @@ void PETL::clearAll()
     params.clearAll();
 }
 
+const char* PETL::about()
+{
+    printf("***********************************************************\n");
+    printf("       Planogram Emission Tomography Library (PETL)\n");
+    printf("                     version %s\n", PETL_VERSION);
+    printf("\n");
+    printf("             compiled: %s %s\n", __DATE__, __TIME__);
+    printf("           written by: Kyle Champley for PET/X\n");
+    printf("***********************************************************\n");
+
+    return PETL_VERSION;
+}
+
 bool PETL::add_planogram(float psi, float R, float L, float H, float v_m0, float v_m1, float T)
 {
     return params.add_planogram(psi, R, L, H, v_m0, v_m1, T);

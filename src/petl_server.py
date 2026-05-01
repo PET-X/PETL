@@ -113,6 +113,11 @@ class PETLserver:
         self.response = None
         self.include_response_with_projectors = False
         
+    def about(self):
+        """prints info about PETL, including the version number"""
+        self.set_model()
+        self.libprojectors.about()
+        
     def set_response(self, R):
         """
         Sets the response map (i.e., sensitivity)

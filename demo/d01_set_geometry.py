@@ -11,7 +11,7 @@ For a full description of each function's arguments, please see the online docum
 # First we make an instance of the PETLserver class
 # Each instance carries its own parameters (PET geometry, PET volume specification, etc).
 petl = PETLserver()
-
+petl.about()
 
 # Set PET geometry
 # Here the proojection data is composed of 6 planograms which corresponds to a system

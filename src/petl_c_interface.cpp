@@ -29,6 +29,11 @@ PETL* tomo()
 	return list_models.get(whichModel);
 }
 
+void about()
+{
+    tomo()->about();
+}
+
 bool copy_parameters(int param_id)
 {
 	if (0 <= param_id && param_id < list_models.size())
