@@ -25,7 +25,7 @@ Python version 3.6 or newer
 
 Documentation is available [here](https://petl.readthedocs.io/)
 
-Demo scripts for most functionality in the [demo](https://github.com/kylechampley/PETL/tree/main/demo) directory
+Demo scripts for most functionality in the [demo](https://github.com/PET-X/PETL/tree/main/demo) directory
 
 ## Authors
 Kyle Champley (champley@gmail.com)
